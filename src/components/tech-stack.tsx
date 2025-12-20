@@ -31,22 +31,24 @@ const techCategories: TechCategory[] = [
       {
         name: "Languages & Environments",
         items: [
-          { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-          { name: "MATLAB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" },
           { name: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
-          { name: "R", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" },
-          { name: "LaTeX", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" },
+          { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+          { name: "C++", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
+          // { name: "MATLAB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" },
+          // { name: "R", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" },
+          // { name: "LaTeX", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" },
         ]
       },
       {
         name: "ML & AI Frameworks",
         items: [
-          { name: "PyTorch", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
-          { name: "TensorFlow", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
-          { name: "Scikit-learn", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" },
-          { name: "Transformers", logo: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
+          // { name: "PyTorch", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
+          // { name: "TensorFlow", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
+          // { name: "Scikit-learn", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" },
+          // { name: "Transformers", logo: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
           { name: "NumPy", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
           { name: "Pandas", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
+          { name: "OpenCV", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" },
         ]
       }
     ]
@@ -59,6 +61,8 @@ const techCategories: TechCategory[] = [
         items: [
           { name: "TypeScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
           { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+          { name: "HTML", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+          { name: "CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
         ]
       },
       {
@@ -67,9 +71,10 @@ const techCategories: TechCategory[] = [
           { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
           { name: "Next.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" },
           { name: "Tailwind CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
-          { name: "Three.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg" },
-          { name: "shadcn/ui", logo: "https://ui.shadcn.com/favicon.ico" },
-          { name: "Framer Motion", logo: "https://cdn.worldvectorlogo.com/logos/framer-motion.svg" },
+          { name: "FastAPI", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" },
+          // { name: "Three.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg" },
+          // { name: "shadcn/ui", logo: "https://ui.shadcn.com/favicon.ico" },
+          // { name: "Framer Motion", logo: "https://cdn.worldvectorlogo.com/logos/framer-motion.svg" },
         ]
       }
     ]
@@ -78,18 +83,29 @@ const techCategories: TechCategory[] = [
     category: "Backend & DevOps",
     items: [
       { name: "Node.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" },
-      { name: "Flask", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
+      // { name: "Flask", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
+      { name: "OracleDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" },
       { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-      { name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+      { name: "PostgreSQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+      // { name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
       { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
       { name: "GitHub", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+    ]
+  },
+  {
+    category: "UI/UX & Designing",
+    items: [
+      { name: "Figma", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
+      { name: "Framer", logo: "https://cdn.worldvectorlogo.com/logos/framer-1.svg" },
+      { name: "Photoshop", logo: "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" },
+      { name: "Illustrator", logo: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg" },
     ]
   }
 ];
 
 // Flatten all items for the scrolling marquee
-const allTechItems: TechItem[] = techCategories.flatMap(category => 
-  category.subcategories 
+const allTechItems: TechItem[] = techCategories.flatMap(category =>
+  category.subcategories
     ? category.subcategories.flatMap(sub => sub.items)
     : category.items || []
 );
@@ -161,7 +177,7 @@ export const TechStack = ({ delay = 0 }: TechStackProps) => {
             {/* Subtle gradient overlays */}
             <div className="absolute left-0 top-0 z-10 h-full w-32 bg-gradient-to-r from-background via-background/80 to-transparent" />
             <div className="absolute right-0 top-0 z-10 h-full w-32 bg-gradient-to-l from-background via-background/80 to-transparent" />
-            
+
             {/* Floating logos */}
             <motion.div
               className="flex items-center"
@@ -182,7 +198,7 @@ export const TechStack = ({ delay = 0 }: TechStackProps) => {
               ))}
             </motion.div>
           </div>
-          
+
           {/* Icon-only Show All Button */}
           <div className="flex justify-center">
             <Button
@@ -211,7 +227,7 @@ export const TechStack = ({ delay = 0 }: TechStackProps) => {
                 <h3 className="text-2xl font-bold text-center text-foreground">
                   {category.category}
                 </h3>
-                
+
                 {category.subcategories ? (
                   <div className="space-y-8">
                     {category.subcategories.map((subcategory, subIndex) => (
@@ -251,7 +267,7 @@ export const TechStack = ({ delay = 0 }: TechStackProps) => {
               </motion.div>
             ))}
           </div>
-          
+
           {/* Icon-only Back Button */}
           <div className="flex justify-center">
             <Button

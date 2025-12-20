@@ -37,14 +37,14 @@ export default function Page() {
 
       <section id="duolingo" className="min-h-screen flex flex-col items-center justify-center mb-section-lg bg-white dark:bg-background">
         <BlurFade delay={BLUR_FADE_DELAY}>
-          <h2 className="text-4xl md:text-6xl font-bold text-[#58cc02] mb-8 text-center animate-pulse">
-            Spanish or vanish?
+          <h2 className="text-4xl md:text-6xl font-bold text-[#FAFAFA] mb-8 text-center animate-pulse">
+            Hello!
           </h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 2}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://i.pinimg.com/originals/98/59/12/98591272861e66a02eecf5dae0450c73.gif"
+            src="https://media.tenor.com/uuqTsCYHpEkAAAAi/snoopy-esnupi.gif"
             alt="Duolingo"
             className="max-w-[300px] md:max-w-[500px] w-full"
           />
@@ -91,38 +91,38 @@ export default function Page() {
           <div className="space-y-content-sm">
             <BlurFade delay={BLUR_FADE_DELAY * 11}>
               <p className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-                I&apos;m a Homo sapiens born and raised in Hong Kong. I also spent a year studying in the UK and semesters in the US and France, experiences that opened my mind and shaped how I see the world.
+                I&apos;m currently pursuing my engineering degree and gradually shaping myself into a well-rounded software engineer. Over time, I&apos;ve realized that I enjoy building complete products, where code, design, and usability come together.
               </p>
             </BlurFade>
             <BlurFade delay={BLUR_FADE_DELAY * 12}>
               <p className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-                Before university, I was that kid obsessed with biology and completely hooked on the Olympiad. I loved exploring the mysteries of life. But after countless hours pipetting in the lab, I started to feel burnt out. I realized I loved biology, just not the endless wet lab work.
+                I started with core programming and DSA, which helped me develop strong problem-solving skills. As I explored further, I became interested in full-stack development and UI/UX, understanding how users interact with systems and how good design can simplify complex functionality.
               </p>
             </BlurFade>
             <BlurFade delay={BLUR_FADE_DELAY * 13}>
               <p className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-                At the same time, I discovered the beauty and speed of simulations, where you can explore complex systems without spilling a single drop. One day, I had a lightbulb moment: &ldquo;What if I could use math and code to solve big biology questions instead?&rdquo; That idea completely changed my path.
+                I&apos;ve worked on projects like CodeNova, a competitive programming platform with real-time code execution, role-based access, and ML-based cheat detection. Along with backend and system design, I focused on interface structure, user flow, and visual clarity to make the platform easy and enjoyable to use.
               </p>
             </BlurFade>
             <BlurFade delay={BLUR_FADE_DELAY * 14}>
               <p className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-                And so, here I am, merging my love for biology with the power of math and computation.
+                I&apos;m also exploring machine learning and computer vision, applying them where they add real value rather than just as buzzwords.
               </p>
             </BlurFade>
             <BlurFade delay={BLUR_FADE_DELAY * 15}>
               <p className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-                When I&apos;m not coding or solving equations, you&apos;ll find me kayaking, playing tennis, or on a mission to hunt down the best ramen and handmade pasta in Hong Kong (I might have tried them all by now). And when it comes to boba, it&apos;s always &ldquo;No.1&rdquo; at Comebuytea.
+                When I&apos;m not coding, you&apos;ll usually find me refining designs, experimenting with layouts, or learning how to create better user experiences through thoughtful design and clean implementation.
               </p>
             </BlurFade>
           </div>
         </div>
       </section>
 
-      <section id="ethics" className="mb-section-lg">
+      {/* <section id="ethics" className="mb-section-lg">
         <div className="space-y-content-md">
           <EthicsQuote delay={BLUR_FADE_DELAY * 15.5} />
         </div>
-      </section>
+      </section> */}
 
       <section id="work" className="mb-section-lg">
         <div className="space-y-12">

@@ -61,14 +61,20 @@ export const TimelineItem = ({
       {!isLast && (
         <div className="absolute left-4 sm:left-6 top-10 sm:top-12 bottom-0 w-0.5 bg-gradient-to-b from-border to-muted/30" />
       )}
-      
+
       {/* Timeline dot with logo */}
       <div className="absolute left-0 top-0 w-8 h-8 sm:w-12 sm:h-12 rounded-full border-2 border-background shadow-lg bg-background flex items-center justify-center">
-        <Avatar className="size-6 sm:size-10 border">
+        <Avatar className={cn(
+          "size-6 sm:size-10 border",
+          title === "National Fertilizers Limited" ? "bg-white" : "bg-background"
+        )}>
           <AvatarImage
             src={logoUrl}
             alt={altText}
-            className="object-contain"
+            className={cn(
+              "object-contain",
+              title === "National Fertilizers Limited" && "p-1"
+            )}
           />
           <AvatarFallback className="text-xs">{altText[0]}</AvatarFallback>
         </Avatar>
@@ -103,7 +109,7 @@ export const TimelineItem = ({
                 </div>
               )}
             </div>
-            
+
             <div className="flex items-center justify-between sm:justify-start gap-2">
               <span className="text-sm font-medium text-muted-foreground bg-muted/50 px-2 sm:px-3 py-1 rounded-full whitespace-nowrap">
                 {period}

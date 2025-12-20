@@ -8,9 +8,9 @@ export const DATA = {
   location: "India",
   locationLink: "https://www.google.com/maps/place/india",
   description:
-    "A rising junior with research interests in Mathematical Biology and AI for biomedicine. I'm also a software engineer specializing in AI/ML, and I love building fun, meaningful apps with React Native. On the side, I share my journey with over 60,000 followers on Threads and 35,000 on LinkedIn.",
+    "A B.Tech student with interests in software development, UI/UX design, and AI/ML. I enjoy building applications that are technically solid, visually clean, and intuitive to use. I focus on creating meaningful products by combining problem solving, modern web technologies, and thoughtful design.",
   summary:
-    "I'm a Homo sapiens born and raised in India. I also spent a year studying in the UK and semesters in the US and France, experiences that opened my mind and shaped how I see the world.\n\nBefore university, I was that kid obsessed with biology and completely hooked on the Olympiad. I loved exploring the mysteries of life. But after countless hours pipetting in the lab, I started to feel burnt out. I realized I loved biology, just not the endless wet lab work.\n\nAt the same time, I discovered the beauty and speed of simulations, where you can explore complex systems without spilling a single drop. One day, I had a lightbulb moment: \"What if I could use math and code to solve big biology questions instead?\" That idea completely changed my path.\n\nAnd so, here I am, merging my love for biology with the power of math and computation.\n\nWhen I'm not coding or solving equations, you'll find me kayaking, playing tennis, or on a mission to hunt down the best ramen and handmade pasta in Hong Kong (I might have tried them all by now). And when it comes to boba, it's always \"No.1\" at Comebuytea.",
+    "I'm a B.Tech student from India, currently shaping myself into a well rounded software engineer with a strong focus on problem solving and real-world application development.\n\nI started my journey with core programming and DSA, which helped me build a solid foundation in algorithms and logical thinking. Over time, I discovered my interest in full-stack development, where I could work across backend systems, APIs, and user-facing interfaces.\n\nAlongside development, I developed a strong appreciation for UI/UX and design. I enjoy thinking about layouts, user flows, and small details that make applications easier and more enjoyable to use, not just functional.\n\nI’ve worked on projects like CodeNova, a competitive programming platform featuring real-time code execution, role-based access, and ML-based cheat detection. While building it, I focused on both system architecture and interface clarity to ensure a smooth user experience.\n\nI’m also exploring machine learning and computer vision, applying them where they add real value rather than as buzzwords.\n\nWhen I’m not coding, you’ll usually find me learning new tools, refining designs, or thinking about how to build faster, cleaner, and more user-friendly systems.",
   avatarUrl: "/me.jpeg",
 
   navbar: [
@@ -46,168 +46,142 @@ export const DATA = {
 
   technicalExperience: [
     {
-      company: "Google DeepMind",
-      href: "https://deepmind.com",
+      company: "National Fertilizers Limited",
+      href: "",
       badges: [],
-      location: "Remote",
-      title: "Open Source Software Developer\nGoogle Summer of Code Participant",
-      logoUrl: "/deepmind.jpg",
-      start: "May 2025",
-      end: "Present",
+      location: "On Site",
+      title: "Vocational Trainee",
+      logoUrl: "/nfl.jpg",
+      start: "June 2025",
+      end: "July 2025",
       bullets: [
-        "Engineered a scalable model evaluation platform using Python, PyTorch, and Docker, which improved benchmarking efficiency by 15% and supported parallel execution across 5+ academic test suites (e.g., MMLU, HumanEval)",
-        "Designed and deployed a fully automated CI/CD pipeline with GitHub Actions to enforce 95% unit test coverage, guaranteeing reproducible, production-ready builds for a system"
+        "Engineered and deployed a Urea Requisition Management System using Java EE (JSP, Servlets), Oracle DB, and Apache Tomcat, digitizing end-to-end requisition and approval workflows for enterprise use.",
+        "Designed and implemented role-based modules for customer registration, requisition submission, HR validation, and finance approval/rejection, improving process transparency and reducing manual handling.",
+        "Developed a structured Oracle database schema and integrated it with an MVC-based backend, ensuring data integrity, scalability, and maintainable enterprise deployment.",
+        "Contributed to UI/UX design and frontend logic using JavaScript and JSP, focusing on usability, clear workflows, and responsive user interactions across roles."
       ],
-    },
-    {
-      company: "Stealth Startup",
-      badges: [],
-      href: "#",
-      location: "Hong Kong",
-      title: "Co-Founder & Machine Learning Engineer",
-      logoUrl: "/Stealth.jpeg",
-      start: "November 2024",
-      end: "Present",
-      bullets: [
-        "Building next-generation AI products in stealth mode. Details coming soon!",
-        "Leading the development of proprietary deep learning models and scalable infrastructure for confidential projects."
-      ],
-    },
-    {
-      company: "City University of Hong Kong",
-      href: "https://www.cityu.edu.hk",
-      badges: [],
-      location: "Hong Kong",
-      title: "Undergraduate Researcher",
-      logoUrl: "/cityuhk.jpg",
-      start: "September 2024",
-      end: "Present",
-      bullets: [
-        "Thesis: Hybrid ODE-Neural Network for Personalized Treatment Prediction",
-        "Engineered a multi-task deep learning model in Python and PyTorch as a computationally efficient surrogate for a complex 15-state ODE system, reducing prediction latency from hours to milliseconds",
-        "Designed the neural network (98% AUC, 91.7% accuracy) and developed an end-to-end MLOps pipeline for data generation (N=1,000), training, and validation, achieving an R² of 0.78 on regression tasks"
-      ],
-    },
+    }
   ],
   education: [
     {
-      school: "City University of Hong Kong",
-      href: "https://www.cityu.edu.hk",
-      degree: "Bachelor of Science in Computing Mathematics (GREAT Stream), Minor in Computer Science",
-      logoUrl: "/cityuhk.jpg",
+      school: "Jaypee University of Engineering and Technology",
+      href: "",
+      degree: "B.Tech in Computer Science & Engineering",
+      logoUrl: "/juet.jpg",
       start: "2023",
       end: "2027",
     },
     {
-      school: "University of California, Berkeley",
-      href: "https://berkeley.edu",
-      degree: "Exchange Student, Mathematics",
-      logoUrl: "/Berkeley.png",
-      start: "2024",
-      end: "2024",
+      school: "Emmanuel Mission Sr. Sec. School",
+      href: "",
+      degree: "12th Grade, Physics, Chemistry, Mathematics",
+      logoUrl: "/ems.jpg",
+      start: "2021",
+      end: "2023",
     },
     {
-      school: "Pearson Edexcel A-Levels",
-      href: "https://qualifications.pearson.com",
-      degree: "4A* in Mathematics, Biology, Economics, Chinese\nReceived offers from HKU, CUHK, KCL and Manchester",
-      logoUrl: "/pearson.jpeg",
-      start: "2022",
-      end: "2023",
+      school: "Delhi Public School",
+      href: "",
+      degree: "10th Grade, Physics, Chemistry, Mathematics",
+      logoUrl: "/dps.jpg",
+      start: "2009",
+      end: "2021",
     },
   ],
   projects: [
     {
-      title: "MEQ-Bench",
-      href: "https://github.com/heilcheng/MEQ-Bench",
-      dates: "2024 - Present",
+      title: "CodeNova",
+      href: "https://github.com/Garry400/CodeNova",
+      dates: "2025 - Present",
       active: true,
       description:
-        "The first benchmark designed to evaluate an LLM's ability to generate audience-adaptive medical explanations for diverse stakeholders, including physicians, nurses, and patients.",
+        "A competitive programming platform enabling real-time code execution and intelligent contest management with ML-driven recommendations and computer-vision-based cheat detection.",
       technologies: [
         "Python",
-        "LLM",
-        "Medical AI",
-        "Benchmarking",
+        "FastAPI",
+        "React",
+        "Machine Learning",
+        "Computer Vision",
       ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/heilcheng/MEQ-Bench",
+          href: "https://github.com/Garry400/CodeNova",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
       video: "",
     },
-    {
-      title: "Gemma Benchmark Suite",
-      href: "https://github.com/heilcheng/gemma-benchmark",
-      dates: "2024 - Present",
-      active: true,
-      description:
-        "An evaluation suite for Google's Gemma models across academic LLM benchmarks, with quantization support and efficiency profiling.",
-      technologies: [
-        "Python",
-        "LLM",
-        "Benchmarking",
-        "Quantization",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/heilcheng/gemma-benchmark",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Craftscape HK",
-      href: "https://i.imgur.com/8z4eENj.gif",
-      dates: "2025",
-      active: true,
-      description:
-        "AI-powered platform preserving Hong Kong's disappearing traditional crafts through AR experiences, and AI-assisted custom design creation with real-world artisans to bring ideas to life.",
-      technologies: [
-        "React",
-        "NestJS",
-        "Google Gemini",
-        "AR",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/gracetyy/CraftscapeHK",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "https://i.imgur.com/8z4eENj.gif",
-      video: "",
-    },
-    {
-      title: "Truth or Dare (Cantonese)",
-      href: "https://i.imgur.com/GVjLPbi.gif",
-      dates: "2024 - Present",
-      active: true,
-      description:
-        "A Truth or Dare question generator web app built in Cantonese, using React for webapp and React Native for Apps.",
-      technologies: [
-        "React",
-        "React Native",
-        "JavaScript",
-        "Cantonese",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/heilcheng/Truth-or-Dare-Canto",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "https://i.imgur.com/GVjLPbi.gif",
-      video: "",
-    },
+    // {
+    //   title: "Gemma Benchmark Suite",
+    //   href: "https://github.com/heilcheng/gemma-benchmark",
+    //   dates: "2024 - Present",
+    //   active: true,
+    //   description:
+    //     "An evaluation suite for Google's Gemma models across academic LLM benchmarks, with quantization support and efficiency profiling.",
+    //   technologies: [
+    //     "Python",
+    //     "LLM",
+    //     "Benchmarking",
+    //     "Quantization",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/heilcheng/gemma-benchmark",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "",
+    // },
+    // {
+    //   title: "Craftscape HK",
+    //   href: "https://i.imgur.com/8z4eENj.gif",
+    //   dates: "2025",
+    //   active: true,
+    //   description:
+    //     "AI-powered platform preserving Hong Kong's disappearing traditional crafts through AR experiences, and AI-assisted custom design creation with real-world artisans to bring ideas to life.",
+    //   technologies: [
+    //     "React",
+    //     "NestJS",
+    //     "Google Gemini",
+    //     "AR",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/gracetyy/CraftscapeHK",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "https://i.imgur.com/8z4eENj.gif",
+    //   video: "",
+    // },
+    // {
+    //   title: "Truth or Dare (Cantonese)",
+    //   href: "https://i.imgur.com/GVjLPbi.gif",
+    //   dates: "2024 - Present",
+    //   active: true,
+    //   description:
+    //     "A Truth or Dare question generator web app built in Cantonese, using React for webapp and React Native for Apps.",
+    //   technologies: [
+    //     "React",
+    //     "React Native",
+    //     "JavaScript",
+    //     "Cantonese",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/heilcheng/Truth-or-Dare-Canto",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "https://i.imgur.com/GVjLPbi.gif",
+    //   video: "",
+    // },
   ],
   books: [
     {
