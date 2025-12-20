@@ -80,15 +80,15 @@ export const ContactOrbiting = ({ delay = 0 }: ContactOrbitingProps) => {
         >
           {/* Inner orbit - Email icons */}
           <OrbitingCircles radius={80} duration={15}>
+            {/* <Mail className="size-8 text-blue-600" />
             <Mail className="size-8 text-blue-600" />
-            <Mail className="size-8 text-blue-600" />
-            <Mail className="size-8 text-blue-600" />
+            <Mail className="size-8 text-blue-600" /> */}
           </OrbitingCircles>
-          
+
           {/* Outer orbit - Social icons */}
           <OrbitingCircles radius={140} reverse duration={20}>
-            <Linkedin className="size-8 text-blue-700" />
-            <Github className="size-8 text-gray-700 dark:text-gray-300" />
+            {/* <Linkedin className="size-8 text-blue-700" /> */}
+            {/* <Github className="size-8 text-gray-700 dark:text-gray-300" /> */}
           </OrbitingCircles>
 
           {/* Center content - clickable links */}

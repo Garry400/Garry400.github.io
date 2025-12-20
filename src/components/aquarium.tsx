@@ -54,7 +54,7 @@ export const Aquarium = ({ isActive }: AquariumProps) => {
       direction: Math.random() * 360,
       speed: 0.5 + Math.random() * 1.5,
       size: 12 + Math.random() * 20,
-      color: Math.random() > 0.6 ? 
+      color: Math.random() > 0.6 ?
         fishColors[Math.floor(Math.random() * fishColors.length)] :
         shrimpColors[Math.floor(Math.random() * shrimpColors.length)],
       opacity: 0.6 + Math.random() * 0.4,

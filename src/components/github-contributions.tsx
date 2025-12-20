@@ -68,7 +68,7 @@ export const GitHubContributions = ({ username, delay = 0 }: GitHubContributions
 
         const data = await response.json();
         const weeks = data.data?.user?.contributionsCollection?.contributionCalendar?.weeks || [];
-        
+
         const allContributions: ContributionDay[] = [];
         weeks.forEach((week: any) => {
           week.contributionDays.forEach((day: any) => {
@@ -106,7 +106,7 @@ export const GitHubContributions = ({ username, delay = 0 }: GitHubContributions
   const renderContributionGraph = () => {
     const days = contributions.slice(-365); // Last 365 days
     const weeks = [];
-    
+
     for (let i = 0; i < days.length; i += 7) {
       weeks.push(days.slice(i, i + 7));
     }
@@ -145,7 +145,7 @@ export const GitHubContributions = ({ username, delay = 0 }: GitHubContributions
             </p>
           </div>
         </div>
-        
+
         {/* Graph container - different behavior for mobile vs desktop */}
         <div className="flex justify-center">
           {/* Mobile: Fixed width container with scrollable graph */}
