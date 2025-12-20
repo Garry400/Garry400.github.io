@@ -51,7 +51,7 @@ export const DATA = {
       badges: [],
       location: "On Site",
       title: "Vocational Trainee",
-      logoUrl: "/nfl.jpg",
+      logoUrl: "/NFL.jpg",
       start: "June 2025",
       end: "July 2025",
       bullets: [
