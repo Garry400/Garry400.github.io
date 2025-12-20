@@ -29,15 +29,15 @@ export default function Page() {
     <main className="flex flex-col min-h-[100dvh] py-section-md">
       <TableOfContents />
 
-      <section id="landing" className="min-h-[calc(100dvh-4rem)] flex flex-col items-center justify-center mb-section-lg">
-        <BlurFade delay={BLUR_FADE_DELAY}>
+      <section id="landing" className="min-h-[calc(100dvh-4rem)] flex flex-col w-full justify-center mb-section-lg">
+        <BlurFade delay={BLUR_FADE_DELAY} className="w-full">
           <Usagi3D />
         </BlurFade>
       </section>
 
       <section id="duolingo" className="min-h-screen flex flex-col items-center justify-center mb-section-lg bg-white dark:bg-background">
         <BlurFade delay={BLUR_FADE_DELAY}>
-          <h2 className="text-4xl md:text-6xl font-bold text-[#FAFAFA] mb-8 text-center animate-pulse">
+          <h2 className="text-4xl md:text-6xl font-bold text-foreground mb-8 text-center animate-pulse">
             Hello!
           </h2>
         </BlurFade>
@@ -45,7 +45,7 @@ export default function Page() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="https://media.tenor.com/uuqTsCYHpEkAAAAi/snoopy-esnupi.gif"
-            alt="Duolingo"
+            alt="White Dog"
             className="max-w-[300px] md:max-w-[500px] w-full"
           />
         </BlurFade>
