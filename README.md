@@ -66,8 +66,8 @@ If you like what you see and want to build your own version, feel free to use th
 Fork the repository and clone it to your local machine.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/heilcheng.github.io.git
-cd heilcheng.github.io
+git clone https://github.com/YOUR_USERNAME/Garry400.github.io.git
+cd Garry400.github.io
 ```
 
 ### 2. Install Dependencies
